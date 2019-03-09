@@ -230,9 +230,7 @@ Column # | Name | Type | Note
 Column # | Name | Type | Note
 --- | --- | --- | ---
 1 | FieldOfStudyId1 | long | FOREIGN KEY REFERENCES FieldsOfStudy(FieldOfStudyId)
-2 | DisplayName 1 | string |
-3 | Type1 | string | general, disease, disease_cause, medical_treatment, symptom
-4 | FieldOfStudyId2 | long | FOREIGN KEY REFERENCES FieldsOfStudy(FieldOfStudyId)
-5 | DisplayMame 2 | string |
-6 | Type2 | string | general, disease, disease_cause, medical_treatment, symptom
-7 | Rank | float | Confidence range between 0 and 1. Bigger number representing higher confidence.
+2 | Type1 | string | general, disease, disease_cause, medical_treatment, symptom
+3 | FieldOfStudyId2 | long | FOREIGN KEY REFERENCES FieldsOfStudy(FieldOfStudyId)
+4 | Type2 | string | general, disease, disease_cause, medical_treatment, symptom
+5 | Rank | float | Confidence range between 0 and 1. Bigger number representing higher confidence.
